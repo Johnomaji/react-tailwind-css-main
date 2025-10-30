@@ -2,7 +2,12 @@ import React from 'react'
 
 const PoetryHero = () => {
     return (
-        <section className="relative bg-cover bg-center h-screen bg-[url('unsplash-image-2n8USpVDRq8.webp')]">
+        <section className="relative bg-cover bg-center h-screen">
+            <img 
+                src="/unsplash-image-2n8USpVDRq8.webp" 
+                alt="Dark summer background" 
+                className="absolute inset-0 w-full h-full object-cover"
+            />
             <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet" />
             {/* // <section className="relative bg-cover bg-center h-screen bg-[url('rose3.jpg')]"> */}
             {/* Dark overlay for better text contrast */}

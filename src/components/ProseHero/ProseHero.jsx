@@ -4,12 +4,12 @@ const ProseHero = () => {
     return (
         <section className="relative bg-cover bg-center h-screen ">
             <img 
-    src="/obafemi-dark-summer-gray.jpg" 
-    alt="Dark summer background" 
-    className="absolute inset-0 w-full h-full object-cover"
-  />
+                src="/obafemi-dark-summer-gray.jpg" 
+                alt="Dark summer background" 
+                className="absolute inset-0 w-full h-full object-cover"
+            />
             {/* Dark overlay for better text contrast */}
-            <div className=""></div>
+            <div className="absolute inset-0 bg-black/40"></div>
             
             {/* Content container */}
             <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
