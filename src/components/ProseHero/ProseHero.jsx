@@ -2,8 +2,12 @@ import React from 'react'
 
 const ProseHero = () => {
     return (
-        <section className="relative bg-cover bg-center h-screen bg-[url('obafemi-dark-summer-gray.jpg')]">
-            
+        <section className="relative bg-cover bg-center h-screen ">
+            <img 
+    src="/obafemi-dark-summer-gray.jpg" 
+    alt="Dark summer background" 
+    className="absolute inset-0 w-full h-full object-cover"
+  />
             {/* Dark overlay for better text contrast */}
             <div className=""></div>
             
@@ -29,3 +33,5 @@ const ProseHero = () => {
 }
 
 export default ProseHero
+
+
