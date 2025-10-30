@@ -23,7 +23,7 @@ const ProseWork = () => {
                   href="https://efikomag.com/three-photographs/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1"
+                  className="underline decoration-1 underline-offset-4"
                 >
                   Three Photographs
                 </a>
@@ -47,7 +47,7 @@ const ProseWork = () => {
                   href="https://lolwe.org/the-child-in-the-field-bears-your-fathers-name/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1"
+                  className="underline decoration-1 underline-offset-4"
                 >
                   The Child in the Field Bears Your Father's Name
                 </a>
@@ -71,7 +71,7 @@ const ProseWork = () => {
                   href="https://barrenmagazine.com/in-the-blink-of-my-eye/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1"
+                  className="underline decoration-1 underline-offset-4"
                 >
                   In the Blink of My Eye, The World Ended
                 </a>
@@ -87,7 +87,7 @@ const ProseWork = () => {
                   href="https://www.oysterriverpages.com/fiction-5-1/olive-branches-and-weeping-doves" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1"
+                  className="underline decoration-1 underline-offset-4"
                 >
                   Olive Branches and Weeping Doves
                 </a>
@@ -103,7 +103,7 @@ const ProseWork = () => {
                   href="https://vagabondcitylit.com/2021/06/21/on-pain-as-a-nigerian-desire-obafemi-thanni/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1"
+                  className="underline decoration-1 underline-offset-4"
                 >
                   On Pain as a Nigerian Desire
                 </a>
@@ -119,7 +119,7 @@ const ProseWork = () => {
                   href="https://www.ecotheo.org/etreview/the-wages-of-love" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1"
+                  className="underline decoration-1 underline-offset-4"
                 >
                   For the Wages of Love is Grief
                 </a>

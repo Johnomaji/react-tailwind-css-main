@@ -2,7 +2,12 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <section className="relative bg-cover bg-center h-screen bg-[url('rose3.jpg')]">
+        <section className="relative bg-cover bg-center h-screen">
+            <img 
+                src="/rose3.jpg" 
+                alt="Greyscale Rose Flower" 
+                className="absolute inset-0 w-full h-full object-cover"
+            />
             {/* Dark overlay for better text contrast */}
             <div className="relative">
                             <img 

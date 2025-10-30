@@ -2,7 +2,12 @@ import React from 'react'
 
 const ContactHero = () => {
     return (
-        <section className=" relative bg-cover bg-center h-screen bg-[url('22.jpg')]">
+        <section className=" relative bg-cover bg-center h-screen ">
+            <img 
+                src="/22.jpg" 
+                alt="Whorls hand-drawn by TJ Benson using silver gel ink on 16 x 22 archival paper" 
+                className="absolute inset-0 w-full h-full object-cover"
+            />
             <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet" />
             {/* // <section className="relative bg-cover bg-center h-screen bg-[url('rose3.jpg')]"> */}
             {/* Dark overlay for better text contrast */}

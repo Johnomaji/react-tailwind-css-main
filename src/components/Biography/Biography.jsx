@@ -20,7 +20,7 @@ const Biography = () => {
                     </div>
 
                     {/* Footer Information */}
-                        <div className="border-t border-gray-200 pt-6">
+                        <div className="border-b border-gray-200 pt-3 pb-6 px-4 mt-6">
                             <div className="mb-4">
                                 <h3 className="text-1xl tracking-widest text-gray-500 mb-3">PRONOUNS</h3>
                                 <p className="text-gray-800 text-3xl">he · him</p>

@@ -47,7 +47,9 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="md:hidden text-white text-2xl focus:outline-none transition-transform duration-300"
+            className={`md:hidden text-white text-2xl focus:outline-none transition-transform duration-300 ${
+              isMenuOpen ? 'rotate-45' : 'rotate-0'
+            }`}
           >
             {isMenuOpen ? "×" : "+"}
           </button>
@@ -64,11 +66,23 @@ const Navbar = () => {
 
       {/* Mobile Menu Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-dark shadow-lg z-50 transform transition-transform duration-300 md:hidden ${
+        className={`fixed top-0 right-0 h-full w-64 bg-black shadow-lg z-50 transform transition-transform duration-300 md:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex flex-col p-6 mt-16">
+        {/* Close Button in Sidebar */}
+        <div className="flex justify-end p-4">
+          <button
+            onClick={toggleMenu}
+            className={`text-white text-3xl focus:outline-none transition-transform duration-300 ${
+              isMenuOpen ? 'rotate-0' : 'rotate-45'
+            }`}
+          >
+            ×
+          </button>
+        </div>
+
+        <div className="flex flex-col p-6 mt-8">
           <ul className="space-y-6 text-lg">
             <li>
               <NavLink
