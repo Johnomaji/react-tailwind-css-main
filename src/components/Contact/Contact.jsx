@@ -2,31 +2,32 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section className="py-16 px-4 bg-white">
-            <div className="max-w-4xl mx-auto">
-                {/* Contact Header */}
-                <div className="text-center mb-32">
-                    <div className="border border-gray-300 rounded-lg py-6 px-8 inline-block mb-12">
-                        <h1 className="text-xs md:text-sm font-light text-gray-900 tracking-widest ">
-                            CONTACT ME
-                        </h1>
+        <>
+            <section className="py-16 px-4 bg-white">
+                <div className="max-w-4xl mx-auto">
+                    {/* Contact Header */}
+                    <div className="text-center mb-32">
+                        <div className="border border-gray-300 rounded-lg py-6 px-8 inline-block mb-12">
+                            <h1 className="text-xs md:text-sm font-light text-gray-900 tracking-widest">
+                                CONTACT ME
+                            </h1>
+                        </div>
+                        <p className="text-sm md:text-base text-gray-600 mb-2 font-light">
+                            For Enquiries, Bookings and Tea appointments, kindly write to me at{' '}
+                            <a 
+                                href="mailto:editor@obafemithanni.com" 
+                                className="text-green-600 hover:text-green-700 font-light underline decoration-1 underline-offset-4 transition-colors"
+                            >
+                                editor@obafemithanni.com
+                            </a>
+                        </p>
                     </div>
-                    <p className="text-sm md:text-base text-gray-600 mb-2 font-light">
-                        For Enquiries, Bookings and Tea appointments, kindly write to me at{' '}
-                        <a 
-                            href="mailto:editor@obafemithanni.com" 
-                            className="text-green-600 hover:text-green-700 font-light underline decoration-1 underline-offset-4 transition-colors"
-                        >
-                            editor@obafemithanni.com
-                        </a>
-                    </p>
                 </div>
+            </section>
 
-                {/* Photography Credits */}
-                <div className="bg-black text-white w-full z-50 py-12">
-    <               div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12">
-
-
+            {/* Photography & Design Credits - Full Width Black Section */}
+            <div className="w-full bg-black text-white py-12">
+                <div className="max-w-3xl mx-auto px-4 sm:px-8 md:px-12">
                     <h2 className="text-base md:text-lg font-bold text-white mb-8">
                         Photography Credits
                     </h2>
@@ -66,12 +67,15 @@ const Contact = () => {
                             <p>
                                 Web design and maintenance by John Omaji.
                             </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
-        </section>
+        </>
     )
 }
 

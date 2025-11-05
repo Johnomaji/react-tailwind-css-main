@@ -21,11 +21,12 @@ const Hero = () => {
             {/* Content container */}
             <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
                 {/* Main heading */}
-                <h1 className="text-2xl sm:text-2xl md:text-6xl lg:text-2xl font-bold mb-6 font-quicksand text-white tracking-wide">
-                    O B Ä F É M I   <>  </>T H A N N I
-                    <br />
-                   
+                <h1 className="text-2xl sm:text-2xl md:text-6xl lg:text-2xl font-bold mb-6 font-quicksand text-white tracking-widest">
+                    O B Ä F É M I &nbsp;&nbsp;&nbsp; T H A N N I
                 </h1>
+
+
+
                 
                 
                 

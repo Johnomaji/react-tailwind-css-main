@@ -6,8 +6,8 @@ const EditorialServices = () => {
             <div className="max-w-4xl mx-auto">
                 {/* Header Section */}
                 <div className="text-center mb-16">
-                    <div className="border border-gray-300 rounded-lg py-6 px-8 inline-block mb-8">
-                        <h1 className="text-xs md:text-sm font-light text-gray-900 tracking-widest mb-4">
+                    <div className="border border-gray-300 rounded-lg py-6 px-32 inline-block mb-8 shadow-xl">
+                        <h1 className="text-2xl md:text-2xl font-light text-gray-900 tracking-widest mb-4">
                             EDITORIAL SERVICES
                         </h1>
                         <p className="text-xs md:text-sm text-gray-600 font-light mb-3 tracking-wide">
@@ -44,7 +44,7 @@ const EditorialServices = () => {
 
                 {/* Testimonials Section */}
                 <div className="pt-8">
-                    <h2 className="text-xs md:text-sm font-light text-gray-900 mb-12 text-center tracking-widest">
+                    <h2 className="text-3xl md:text-2xl font-light text-gray-900 mb-12 text-center tracking-widest">
                         TESTIMONIALS
                     </h2>
                     
