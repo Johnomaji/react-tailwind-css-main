@@ -22,7 +22,7 @@ const Biography = () => {
                     {/* Footer Information */}
                         <div className="border-b border-gray-200 pt-3 pb-6 px-4 mt-6">
                             <div className="mb-4">
-                                <h3 className="text-1xl tracking-widest text-gray-500 mb-3">PRONOUNS</h3>
+                                <h3 className="text-md-1xl tracking-widest text-gray-500 mb-3">PRONOUNS</h3>
                                 <p className="text-gray-800 text-3xl">he · him</p>
                             </div>
                             {/* Social Icon */}
@@ -46,7 +46,7 @@ const Biography = () => {
                         
                         {/* Biography Text */}
                         <div className="space-y-6 text-gray-800 leading-[2] mb-12 text-justify">
-                            <p className="text-2xl leading-loose">
+                            <p className="text-2xl leading-normal">
                                 Obáfẹ́mi Thanni is a poet whose works of poetry and fiction have received Pushcart Prize nominations. An alumnus of the Johannesburg Institute for Advanced Study's Writers' Workshop, his works have appeared in the 20.35 Anthology, Lolwe, Kissing Dynamite Poetry, Wildness, Oyster River Pages, SAND, Parentheses Journal, Contemporary Verse 2 and elsewhere.
                             </p>
                             

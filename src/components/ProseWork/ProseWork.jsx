@@ -18,17 +18,17 @@ const ProseWork = () => {
           </div>
           <div className="md:w-11/12 space-y-10 md:pl-100">
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-green-600 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-green-600 mb-2">
                 <a 
                   href="https://efikomag.com/three-photographs/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1 underline-offset-4"
+                  className="underline decoration-1 underline-offset-4 tracking-wider"
                 >
                   Three Photographs
                 </a>
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 Efiko, Issue 6; October, 2025.
               </p>
             </div>
@@ -42,17 +42,17 @@ const ProseWork = () => {
           </div>
           <div className="md:w-11/12 space-y-10 md:pl-100">
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-green-600 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-green-600 mb-2">
                 <a 
                   href="https://lolwe.org/the-child-in-the-field-bears-your-fathers-name/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1 underline-offset-4"
+                  className="underline decoration-1 underline-offset-4 tracking-wider"
                 >
                   The Child in the Field Bears Your Father's Name
                 </a>
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 Lolwe, Issue 8, Guest-Edited by Charmaine Denison-George, Logain Ali and Alírio Karina; December, 2023.
               </p>
             </div>
@@ -66,65 +66,65 @@ const ProseWork = () => {
           </div>
           <div className="md:w-11/12 space-y-10 md:pl-100">
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-green-600 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-green-600 mb-2">
                 <a 
                   href="https://barrenmagazine.com/in-the-blink-of-my-eye/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1 underline-offset-4"
+                  className="underline decoration-1 underline-offset-4 tracking-wider"
                 >
                   In the Blink of My Eye, The World Ended
                 </a>
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 Barren Magazine, Issue 19; August, 2021.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-green-600 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-green-600 mb-2">
                 <a 
                   href="https://www.oysterriverpages.com/fiction-5-1/olive-branches-and-weeping-doves" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1 underline-offset-4"
+                  className="underline decoration-1 underline-offset-4 tracking-wider"
                 >
                   Olive Branches and Weeping Doves
                 </a>
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 Pushcart Prize Nomination, Oyster River Pages, Issue 5.1; August, 2021.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-green-600 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-green-600 mb-2">
                 <a 
                   href="https://vagabondcitylit.com/2021/06/21/on-pain-as-a-nigerian-desire-obafemi-thanni/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1 underline-offset-4"
+                  className="underline decoration-1 underline-offset-4 tracking-wider"
                 >
                   On Pain as a Nigerian Desire
                 </a>
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 Vagabond City Lit, Issue 60; June, 2021.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-green-600 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-green-600 mb-2">
                 <a 
                   href="https://www.ecotheo.org/etreview/the-wages-of-love" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="underline decoration-1 underline-offset-4"
+                  className="underline decoration-1 underline-offset-4 tracking-wider"
                 >
                   For the Wages of Love is Grief
                 </a>
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 Finalist, Eco Theo Review's Inaugural Short Fiction Contest; March, 2021.
               </p>
             </div>
@@ -138,10 +138,10 @@ const ProseWork = () => {
           </div>
           <div className="md:w-11/12 space-y-10 md:pl-100">
             <div>
-              <h3 className="text-xl md:text-2xl font-light text-gray-900 mb-2">
+              <h3 className="text-base md:text-xl font-extralight text-gray-900 mb-2 tracking-wider">
                 A Broken Song
               </h3>
-              <p className="text-gray-600 font-light italic text-justify text-base md:text-2xl">
+              <p className="text-gray-600 font-light italic text-justify text-sm md:text-xs uppercase tracking-widest">
                 The African Writers Review; August, 2020.
               </p>
             </div>

@@ -27,7 +27,7 @@ const Contact = () => {
 
             {/* Photography & Design Credits - Full Width Black Section */}
             <div className="w-full bg-black text-white py-12">
-                <div className="max-w-3xl mx-auto px-4 sm:px-8 md:px-12">
+                <div className="max-w-4xl mx-auto px-4 sm:px-8 md:px-12">
                     <h2 className="text-base md:text-lg font-bold text-white mb-8">
                         Photography Credits
                     </h2>
